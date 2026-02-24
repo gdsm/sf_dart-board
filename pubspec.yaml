@@ -1,0 +1,29 @@
+name: bulls_eye
+description: Dart Games - a simple dart game in Flutter.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  google_mobile_ads: ^5.1.0
+  app_tracking_transparency: ^2.0.4
+  in_app_purchase: ^3.2.0
+  shared_preferences: ^2.2.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/bg.png
+    - assets/images/btn_play.png
+    - assets/images/btn_play_ai.png
+    - assets/images/btn_remove_ads.png
+    - assets/images/go-back.png
+    - assets/images/restart.png
+    - assets/images/icon.png
+    - assets/images/exit.png
